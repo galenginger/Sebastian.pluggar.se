@@ -1,5 +1,5 @@
 site_name: Suvnet25
-site_url: https://klassrum.suvnet.se/
+site_url: https://suvnet25.github.io/classroom/
 extra_css:
   - assets/stylesheets/extra.css
   - assets/week_color/week_color.css
