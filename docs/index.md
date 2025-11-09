@@ -1,68 +1,182 @@
 ---
-title: Home
+title: Hem
 hide:
-    - feedback
+    - navigation
+    - toc
 ---
 
-# OOP1 - Objektorienterad Programmering i C#
+<div class="hero-section" markdown>
 
-## En komplett guide från grunden till C# 12 och .NET 9
+<div class="hero-content" markdown>
 
-Välkommen till denna omfattande guide om objektorienterad programmering i C#! Från absoluta grunder till moderna features i C# 12.
+# C# & OOP Masterclass
 
-## Kursöversikt
+### Från Nybörjare till Professionell Utvecklare
 
-### 📘 Del 1: Grunderna
-**Lektioner 1-10** - Fundamentala OOP-koncept
+Lär dig objektorienterad programmering i C# från grunden. Moderna tekniker, best practices och verkliga projekt.
 
-- Introduktion till OOP
-- Klasser och Objekt
-- Egenskaper (Properties)
-- Metoder
-- Konstruktorer
-- Inkapsling (Encapsulation)
-- Arv (Inheritance)
-- Polymorfism
-- Abstraktion
-- Interface
+<div class="hero-buttons" markdown>
+[Börja Lära :material-rocket-launch:](grunderna/introduktion.md){ .md-button .md-button--primary .hero-button }
+[Se Alla Lektioner :material-book-open-variant:](kursoversikt.md){ .md-button .hero-button }
+</div>
 
-### 📗 Del 2: Viktiga Koncept
-**Lektioner 11-16** - Essentiella C#-features
+</div>
 
-- Static vs Instance
-- Collections och Generics
-- Enums
-- Exception Handling
-- Delegates och Events
-- Namespace och Using
+</div>
 
-### � Del 3: Moderna C# Features
-**Lektioner 17-22** - C# 8-12 Features
+<div class="features-grid" markdown>
 
-- C# 9-12 Overview
-- Primary Constructors (C# 12)
-- Collection Expressions (C# 12)
-- Init-only Properties och Records
-- Pattern Matching
-- Nullable Reference Types
+<div class="feature-card" markdown>
+<div class="feature-icon">:material-language-csharp:</div>
 
-### � Del 4: Praktik
-**Lektioner 23-28** - Verkliga tillämpningar
+### Modern C# 12
+Lär dig de senaste features i C# 12 och .NET 9. Records, pattern matching, och collection expressions.
 
-- SOLID-principer
-- Design Patterns
-- Testing Basics
-- UML-diagram
-- Vanliga misstag
-- Kompletta projekt
+[Utforska →](avancerat/moderna-features.md)
+</div>
+
+<div class="feature-card" markdown>
+<div class="feature-icon">:material-cube-outline:</div>
+
+### OOP Principer
+Bemästra klasser, arv, polymorfism, och inkapsling. Bygg robust och underhållbar kod.
+
+[Lär dig mer →](grunderna/introduktion.md)
+</div>
+
+<div class="feature-card" markdown>
+<div class="feature-icon">:material-hammer-wrench:</div>
+
+### Praktiska Projekt
+Tre kompletta projekt: Bibliotekssystem, E-handel, och Todo-app med best practices.
+
+[Se Projekt →](praktik/projekt.md)
+</div>
+
+<div class="feature-card" markdown>
+<div class="feature-icon">:material-lighthouse:</div>
+
+### SOLID & Patterns
+Design patterns, SOLID-principer, och arkitektur för professionell mjukvaruutveckling.
+
+[Fördjupa dig →](praktik/design-patterns.md)
+</div>
+
+<div class="feature-card" markdown>
+<div class="feature-icon">:material-test-tube:</div>
+
+### Testing & TDD
+Unit testing med xUnit, mocking, och test-driven development för kvalitetskod.
+
+[Testa dig fram →](praktik/testing.md)
+</div>
+
+<div class="feature-card" markdown>
+<div class="feature-icon">:material-chart-timeline-variant:</div>
+
+### UML & Design
+Visualisera din kod med UML-diagram och lär dig undvika vanliga fallgropar.
+
+[Designa bättre →](praktik/uml.md)
+</div>
+
+</div>
 
 ---
 
-## Kom igång
+<div class="learning-path" markdown>
 
-Börja med [Del 1: Grunderna](lektioner/del1/01-introduktion.md) eller hoppa direkt till det område som intresserar dig!
+## :material-map-marker-path: Lärandeväg
 
-**Förkunskaper:** Grundläggande C#-syntax och programmering.
+<div class="path-container" markdown>
+
+<div class="path-step" markdown>
+<span class="step-number">1</span>
+
+### Grunderna
+10 lektioner om OOP-fundamentals
+
+**Tid:** ~5 timmar
+
+[Starta här →](grunderna/introduktion.md)
+</div>
+
+<div class="path-step" markdown>
+<span class="step-number">2</span>
+
+### Viktiga Koncept
+6 lektioner om C#-features
+
+**Tid:** ~3 timmar
+
+[Fortsätt →](koncept/static-vs-instance.md)
+</div>
+
+<div class="path-step" markdown>
+<span class="step-number">3</span>
+
+### Avancerat
+6 lektioner om C# 8-12
+
+**Tid:** ~4 timmar
+
+[Fördjupa →](avancerat/moderna-features.md)
+</div>
+
+<div class="path-step" markdown>
+<span class="step-number">4</span>
+
+### Praktik
+6 lektioner med projekt
+
+**Tid:** ~6 timmar
+
+[Bygga projekt →](praktik/solid.md)
+</div>
+
+</div>
+
+</div>
+
+---
+
+<div class="stats-section" markdown>
+
+<div class="stat-box" markdown>
+<div class="stat-number">28</div>
+<div class="stat-label">Lektioner</div>
+</div>
+
+<div class="stat-box" markdown>
+<div class="stat-number">100+</div>
+<div class="stat-label">Kodexempel</div>
+</div>
+
+<div class="stat-box" markdown>
+<div class="stat-number">3</div>
+<div class="stat-label">Kompletta Projekt</div>
+</div>
+
+<div class="stat-box" markdown>
+<div class="stat-number">~18h</div>
+<div class="stat-label">Totalt Material</div>
+</div>
+
+</div>
+
+---
+
+<div class="cta-section" markdown>
+
+## Redo att börja?
+
+**Förkunskaper:** Grundläggande C#-syntax (variabler, if/else, loopar)
+
+**Du kommer lära dig:** Allt från OOP-grunder till avancerade design patterns och moderna C# 12 features
+
+[Kom igång nu! :material-arrow-right:](grunderna/introduktion.md){ .md-button .md-button--primary .cta-button }
+
+</div>
 
 
 

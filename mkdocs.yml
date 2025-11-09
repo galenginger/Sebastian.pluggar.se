@@ -1,5 +1,7 @@
-site_name: Sebastian's Portfolio
+site_name: C# OOP Masterclass
 site_url: https://galenginger.github.io/Sebastian.pluggar.se/
+site_description: Komplett guide i objektorienterad programmering med C# - från grunder till C# 12
+site_author: Sebastian
 extra_css:
   - assets/stylesheets/extra.css
   - assets/week_color/week_color.css
@@ -14,36 +16,38 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.expand
     - navigation.indexes
     - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
   name: material
   custom_dir: overrides
   font:
-    text: Montserrat
-    code: Source Code Pro
+    text: Inter
+    code: JetBrains Mono
   icon:
-    # logo: assets/logo.png
-    # logo: fontawesome/solid/code
-    # logo: fontawesome/solid/graduation-cap
-    logo: material/food-apple
+    logo: material/code-braces
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: deep purple
+      accent: purple
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Byt till mörkt läge
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      # accent: red
+      primary: deep purple
+      accent: purple
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Byt till ljust läge
 markdown_extensions:
   - md_in_html
   - footnotes

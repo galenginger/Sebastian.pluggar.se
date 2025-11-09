@@ -1,9 +1,40 @@
 nav:
-  - Sebastians QoL: 
-    - index.md
-    - moment.md
-    - Kategorier: categories.md
-    - examination 
-    - Veckor: lektioner
-    - Extra övningar: extra
-  - Kommande QoL shit:
+  - Hem: index.md
+  - Kursöversikt: kursoversikt.md
+  
+  - 🎯 Grunderna:
+    - grunderna/introduktion.md
+    - grunderna/klasser-objekt.md
+    - grunderna/properties.md
+    - grunderna/metoder.md
+    - grunderna/konstruktorer.md
+    - grunderna/inkapsling.md
+    - grunderna/arv.md
+    - grunderna/polymorfism.md
+    - grunderna/abstraktion.md
+    - grunderna/interface.md
+  
+  - 🔧 Viktiga Koncept:
+    - koncept/static-vs-instance.md
+    - koncept/collections.md
+    - koncept/enums.md
+    - koncept/exceptions.md
+    - koncept/delegates.md
+    - koncept/namespace.md
+  
+  - 🚀 Avancerat:
+    - avancerat/moderna-features.md
+    - avancerat/primary-constructors.md
+    - avancerat/collection-expressions.md
+    - avancerat/records.md
+    - avancerat/pattern-matching.md
+    - avancerat/nullable.md
+  
+  - 💼 Praktik:
+    - praktik/solid.md
+    - praktik/design-patterns.md
+    - praktik/testing.md
+    - praktik/uml.md
+    - praktik/misstag.md
+    - praktik/projekt.md
+
