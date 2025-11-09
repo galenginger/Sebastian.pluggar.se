@@ -1,14 +1,9 @@
 nav:
-  - Sebastians Upplägg: 
+  - Sebastians QoL: 
     - index.md
     - moment.md
     - Kategorier: categories.md
     - examination 
     - Veckor: lektioner
     - Extra övningar: extra
-  - Material:
-    - material/index.md
-    - Allmänt: material/general
-    - C#: material/cs
-    - SQL: material/sql
-    - Övrigt: material/misc
+  - Kommande QoL shit:
