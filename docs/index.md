@@ -27,7 +27,7 @@ Lär dig objektorienterad programmering i C# från grunden. Moderna tekniker, be
 <div class="features-grid" markdown>
 
 <div class="feature-card" markdown>
-<div class="feature-icon">:material-language-csharp:</div>
+<div class="feature-icon">💻</div>
 
 ### Modern C# 12
 Lär dig de senaste features i C# 12 och .NET 9. Records, pattern matching, och collection expressions.
@@ -36,7 +36,7 @@ Lär dig de senaste features i C# 12 och .NET 9. Records, pattern matching, och 
 </div>
 
 <div class="feature-card" markdown>
-<div class="feature-icon">:material-cube-outline:</div>
+<div class="feature-icon">🎯</div>
 
 ### OOP Principer
 Bemästra klasser, arv, polymorfism, och inkapsling. Bygg robust och underhållbar kod.
@@ -45,7 +45,7 @@ Bemästra klasser, arv, polymorfism, och inkapsling. Bygg robust och underhållb
 </div>
 
 <div class="feature-card" markdown>
-<div class="feature-icon">:material-hammer-wrench:</div>
+<div class="feature-icon">🔨</div>
 
 ### Praktiska Projekt
 Tre kompletta projekt: Bibliotekssystem, E-handel, och Todo-app med best practices.
@@ -54,7 +54,7 @@ Tre kompletta projekt: Bibliotekssystem, E-handel, och Todo-app med best practic
 </div>
 
 <div class="feature-card" markdown>
-<div class="feature-icon">:material-lighthouse:</div>
+<div class="feature-icon">🏛️</div>
 
 ### SOLID & Patterns
 Design patterns, SOLID-principer, och arkitektur för professionell mjukvaruutveckling.
@@ -63,7 +63,7 @@ Design patterns, SOLID-principer, och arkitektur för professionell mjukvaruutve
 </div>
 
 <div class="feature-card" markdown>
-<div class="feature-icon">:material-test-tube:</div>
+<div class="feature-icon">🧪</div>
 
 ### Testing & TDD
 Unit testing med xUnit, mocking, och test-driven development för kvalitetskod.
@@ -72,7 +72,7 @@ Unit testing med xUnit, mocking, och test-driven development för kvalitetskod.
 </div>
 
 <div class="feature-card" markdown>
-<div class="feature-icon">:material-chart-timeline-variant:</div>
+<div class="feature-icon">📊</div>
 
 ### UML & Design
 Visualisera din kod med UML-diagram och lär dig undvika vanliga fallgropar.
@@ -86,7 +86,7 @@ Visualisera din kod med UML-diagram och lär dig undvika vanliga fallgropar.
 
 <div class="learning-path" markdown>
 
-## :material-map-marker-path: Lärandeväg
+## 🗺️ Lärandeväg
 
 <div class="path-container" markdown>
 
@@ -174,7 +174,7 @@ Visualisera din kod med UML-diagram och lär dig undvika vanliga fallgropar.
 
 **Du kommer lära dig:** Allt från OOP-grunder till avancerade design patterns och moderna C# 12 features
 
-[Kom igång nu! :material-arrow-right:](grunderna/introduktion.md){ .md-button .md-button--primary .cta-button }
+[Kom igång nu! →](grunderna/introduktion.md){ .md-button .md-button--primary .cta-button }
 
 </div>
 

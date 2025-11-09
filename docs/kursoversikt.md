@@ -2,13 +2,13 @@
 title: Kursöversikt
 ---
 
-# :material-book-open-page-variant: Komplett Kursöversikt
+# 📚 Komplett Kursöversikt
 
 En strukturerad genomgång av alla 28 lektioner i C# OOP Masterclass.
 
 ---
 
-## :material-numeric-1-circle: Grunderna (10 lektioner)
+## 1️⃣ Grunderna (10 lektioner)
 
 Fundamentala OOP-koncept som alla C#-utvecklare måste behärska.
 
@@ -29,7 +29,7 @@ Fundamentala OOP-koncept som alla C#-utvecklare måste behärska.
 
 ---
 
-## :material-numeric-2-circle: Viktiga Koncept (6 lektioner)
+## 2️⃣ Viktiga Koncept (6 lektioner)
 
 Essentiella C#-features för professionell utveckling.
 
@@ -46,7 +46,7 @@ Essentiella C#-features för professionell utveckling.
 
 ---
 
-## :material-numeric-3-circle: Avancerat (6 lektioner)
+## 3️⃣ Avancerat (6 lektioner)
 
 Moderna C# 8-12 features för nästa generations kod.
 
@@ -63,7 +63,7 @@ Moderna C# 8-12 features för nästa generations kod.
 
 ---
 
-## :material-numeric-4-circle: Praktik (6 lektioner)
+## 4️⃣ Praktik (6 lektioner)
 
 Verkliga tillämpningar och professionella tekniker.
 
@@ -80,19 +80,19 @@ Verkliga tillämpningar och professionella tekniker.
 
 ---
 
-## :material-clock-outline: Rekommenderad Studieplan
+## ⏱️ Rekommenderad Studieplan
 
-### :material-speedometer-slow: Lugnt Tempo (4 veckor)
+### 🐢 Lugnt Tempo (4 veckor)
 - **Vecka 1:** Grunderna (lek 1-10)
 - **Vecka 2:** Viktiga Koncept (lek 11-16)
 - **Vecka 3:** Avancerat (lek 17-22)
 - **Vecka 4:** Praktik (lek 23-28)
 
-### :material-speedometer-medium: Intensiv (2 veckor)
+### 🏃 Intensiv (2 veckor)
 - **Vecka 1:** Grunderna + Koncept (lek 1-16)
 - **Vecka 2:** Avancerat + Praktik (lek 17-28)
 
-### :material-speedometer: Express (1 vecka)
+### ⚡ Express (1 vecka)
 - **Dag 1-2:** Grunderna (lek 1-10)
 - **Dag 3:** Viktiga Koncept (lek 11-16)
 - **Dag 4-5:** Avancerat (lek 17-22)
@@ -100,7 +100,7 @@ Verkliga tillämpningar och professionella tekniker.
 
 ---
 
-## :material-progress-check: Förkunskapskrav
+## ✅ Förkunskapskrav
 
 ### Obligatoriskt
 - [x] Grundläggande C#-syntax
@@ -115,7 +115,7 @@ Verkliga tillämpningar och professionella tekniker.
 
 ---
 
-## :material-star: Vad du kommer kunna
+## ⭐ Vad du kommer kunna
 
 Efter att ha slutfört alla lektioner kommer du kunna:
 
@@ -130,7 +130,7 @@ Efter att ha slutfört alla lektioner kommer du kunna:
 
 <div class="cta-section" markdown>
 
-## :material-rocket-launch: Börja Din Resa!
+## 🚀 Börja Din Resa!
 
 [Starta med Grunderna →](grunderna/introduktion.md){ .md-button .md-button--primary }
 [Hoppa till Avancerat →](avancerat/moderna-features.md){ .md-button }
