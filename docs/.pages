@@ -1,0 +1,14 @@
+nav:
+  - Hem: index.md
+  - Mitt Online-CV: https://galenginger.github.io/OnlineCV/
+  - Mina Projekt: projekt.md
+  - Kursen:
+    - kursoversikt.md
+    - lektioner
+    - grunderna
+    - koncept
+    - avancerat
+    - praktik
+    - examination
+    - extra
+    - material
