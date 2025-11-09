@@ -1,4 +1,4 @@
-site_name: <-- Tryck För Startsidan | Min Programerings Resa inom C#, OOP, Databaser ~
+site_name: En resa för att förstå och bli förstådd, genom systemutveckling och lärande
 site_url: https://galenginger.github.io/Sebastian.pluggar.se/
 site_description: Komplett guide i objektorienterad programmering med C# - från grunder till C# 12
 site_author: Sebastian
@@ -21,7 +21,6 @@ theme:
     - navigation.footer
     - navigation.top
     - navigation.tabs
-    - navigation.tabs.sticky
     - toc.follow
     - search.suggest
     - search.highlight
