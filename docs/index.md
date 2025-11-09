@@ -11,6 +11,11 @@ hide:
 # Min väg till att Utveckla 4-vägslösningen.
 "Learn Programming from Zero to Hero"
 
+Under mina två år på .NET Systemutveckling har jag bestämt mig för att utveckla 4-vägslösningen. 
+Så att alla människor ska kunna lära sig programmera på ett enkelt och roligt sätt.
+När man väl börjar förstå, då kan man även börja lära ut till andra på ett effektivt sätt.
+Let's Develop Together! 🚀
+
 [Börja Nu 🚀](grunderna/introduktion.md){ .md-button .md-button--primary .hero-button }
 [Alla Lektioner](kursoversikt.md){ .md-button .md-button--primary .hero-button }
 
