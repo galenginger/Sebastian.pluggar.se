@@ -7,7 +7,7 @@ hide:
 
 <div class="hero-section" markdown>
 
-# C# & OOP -> 
+# C# - Databaser - OOP -> 
 # Min väg till att Utveckla 4-vägslösningen.
 Lär dig objektorienterad programmering från grunden till avancerad nivå
 
