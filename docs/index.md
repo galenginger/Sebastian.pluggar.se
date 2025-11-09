@@ -7,8 +7,8 @@ hide:
 
 <div class="hero-section" markdown>
 
-# C# & OOP -> Min väg till att Utveckla 4-vägslösningen.
-
+# C# & OOP -> 
+# Min väg till att Utveckla 4-vägslösningen.
 Lär dig objektorienterad programmering från grunden till avancerad nivå
 
 [Börja Nu 🚀](grunderna/introduktion.md){ .md-button .md-button--primary .hero-button }
