@@ -4,7 +4,7 @@ title: 💎 4-Vägslösningen
 
 <div class="hero-section" markdown>
 
-# 💎 4-Vägslösningen
+# 💎 4-Vägslösningen 💎
 
 Ett tankesätt för lärande, utveckling och förståelse
 
@@ -20,7 +20,7 @@ Målet är inte bara att förstå, utan att också bli förstådd.
 
 ## 🧩 De fyra vägarna
 
-<div class="compact-grid" markdown>
+<div class="compact-grid-2col" markdown>
 
 <div class="compact-card" markdown>
 

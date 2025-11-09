@@ -68,6 +68,13 @@
   margin: 1.5rem 0;
 }
 
+.compact-grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
 .compact-card {
   background: var(--md-default-bg-color);
   border: 1px solid var(--md-default-fg-color--lightest);
