@@ -88,5 +88,53 @@ copyright: Copyright &copy; 2025 Sebastian
 plugins:
     - tags
     - meta
-    - awesome-nav
     - search
+nav:
+  - Mitt Online-CV: https://galenginger.github.io/OnlineCV/
+  - Mina Projekt: projekt.md
+  - Hem: index.md
+  - Kursöversikt: kursoversikt.md
+  - 🎯 Grunderna:
+    - grunderna/index.md
+    - grunderna/introduktion.md
+    - grunderna/klasser-objekt.md
+    - grunderna/properties.md
+    - grunderna/metoder.md
+    - grunderna/konstruktorer.md
+    - grunderna/inkapsling.md
+    - grunderna/arv.md
+    - grunderna/polymorfism.md
+    - grunderna/abstraktion.md
+    - grunderna/interface.md
+  - 🔧 Viktiga Koncept:
+    - koncept/index.md
+    - koncept/static-vs-instance.md
+    - koncept/collections.md
+    - koncept/enums.md
+    - koncept/exceptions.md
+    - koncept/delegates.md
+    - koncept/namespace.md
+  - 🚀 Avancerat:
+    - avancerat/index.md
+    - avancerat/moderna-features.md
+    - avancerat/primary-constructors.md
+    - avancerat/collection-expressions.md
+    - avancerat/records.md
+    - avancerat/pattern-matching.md
+    - avancerat/nullable.md
+  - 💼 Praktik:
+    - praktik/index.md
+    - praktik/solid.md
+    - praktik/design-patterns.md
+    - praktik/testing.md
+    - praktik/uml.md
+    - praktik/misstag.md
+    - praktik/projekt.md
+  - Lektioner:
+    - lektioner/index.md
+  - Examination:
+    - examination/index.md
+  - Extra:
+    - extra/index.md
+  - Material:
+    - material/index.md
