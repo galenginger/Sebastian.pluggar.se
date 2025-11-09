@@ -30,6 +30,7 @@ theme:
     code: JetBrains Mono
   icon:
     logo: material/code-braces
+    annotation: material/arrow-right-circle
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -76,6 +77,10 @@ markdown_extensions:
 extra:
   # Visa inte Made with Material for MKDocs
   generator: false
+  social:
+    - icon: fontawesome/solid/user
+      link: https://galenginger.github.io/OnlineCV/
+      name: Sebastians Online CV
   analytics:
     provider: google
     property: G-MWBTY9Z173
