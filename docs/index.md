@@ -12,7 +12,7 @@ hide:
 Lär dig objektorienterad programmering från grunden till avancerad nivå
 
 [Börja Nu 🚀](grunderna/introduktion.md){ .md-button .md-button--primary .hero-button }
-[Alla Lektioner](kursoversikt.md){ .md-button .hero-button }
+[Alla Lektioner](kursoversikt.md){ .md-button .md-button--primary .hero-button }
 
 </div>
 
