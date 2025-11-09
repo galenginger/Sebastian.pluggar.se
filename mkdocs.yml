@@ -87,7 +87,6 @@ copyright: Copyright &copy; 2025 Sebastian
 plugins:
     - tags
     - meta
-    - awesome-nav
     - search
 nav:
   - Hem: index.md
