@@ -1,4 +1,4 @@
-site_name: Suvnet25
+site_name: Sebastian's Portfolio
 site_url: https://galenginger.github.io/Sebastian.pluggar.se/
 extra_css:
   - assets/stylesheets/extra.css
@@ -79,7 +79,7 @@ extra:
     title: Cookie consent
     description: >- 
       Hjälp mig förstå hur denna dokumentation används genom att tillåta cookies! På så vis kan jag förbättra denna dokumentation. Tack <3
-copyright: Copyright &copy; 2024 - 2025 Gustav Bodell
+copyright: Copyright &copy; 2025 Sebastian
 plugins:
     - tags
     - meta

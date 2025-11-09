@@ -1,34 +1,18 @@
 ---
-title: Hem
+title: Home
 hide:
     - feedback
 ---
 
-# Välkommen!
+# Welcome!
 
-Välkommen till **suvnets** site för objektorienterad programmering i C# och .NET!
-Här hittar du all planering för kursen, lektion för lektion, med anteckningar, länkar till material och övningar. Har ni egna idéer på vad som kan vara bra att ha med så är det bara att säga till. 
+Welcome to my website! This is a template ready for your content.
 
-Det finns *tre viktiga sektioner* här:
+## About This Site
 
-1. [Moment](moment.md) - Här kan du se vad vi gått igenom hittils.
-2. [Studiematerial](material/index.md) - Här finns material om allt vi går igenom i kursen.
-3. Veckoplaneringen du ser till vänster, med lektioner och tillhörande övningar.
+This site is built with MkDocs Material and hosted on GitHub Pages.
 
+---
 
-Utöver denna site så finns några fler ställen att hålla reda på:
-
-#### Discord
-För all allmän kommunikation, frågor och svar, diskussioner och så vidare. Det är på discord ni hittar lärarna och era kurskamrater.
-
-#### Google Classroom
-Där hittar ni exakta scheman och lektionssalar, enkätundersökningar och vissa andra dokument.
-
-#### GitHub Classroom 
-Används framöver för att dela ut inlämningsuppgifter.
-Länk: [classroom.github.com](https://classroom.github.com/)
-
-<p align="center">
-  <img src="assets/humanintelligence.png" width="200" height="200">
-</p>
+*Add your content here!*
 
