@@ -1,4 +1,26 @@
 /* ============================================
+   FORCE NAVIGATION TABS ON MOBILE
+   ============================================ */
+
+/* Show tabs on all screen sizes */
+.md-tabs {
+  display: flex !important;
+}
+
+/* Make tabs scrollable on mobile */
+@media screen and (max-width: 76.1875em) {
+  .md-tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .md-tabs__list {
+    white-space: nowrap;
+  }
+}
+
+/* ============================================
    COMPACT HERO SECTION (Mobile-First)
    ============================================ */
 
