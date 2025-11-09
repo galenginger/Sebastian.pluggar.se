@@ -1,9 +1,0 @@
-nav:
-  - Variabler: variables.md
-  - Selektion: selection.md
-  - Array: array.md
-  - Iteration: iteration.md
-  - Metoder: methods.md
-  - Felhantering: errorhandling.md
-  - Exceptions: exceptions.md
-  - Enums: enums.md

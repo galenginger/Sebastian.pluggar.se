@@ -1,3 +1,0 @@
-# Kategorier
-
-<!-- material/tags -->
