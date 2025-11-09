@@ -21,6 +21,7 @@ theme:
     - navigation.footer
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
     - toc.follow
     - search.suggest
     - search.highlight
