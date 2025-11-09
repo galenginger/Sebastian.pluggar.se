@@ -9,7 +9,7 @@ hide:
 
 # C# - Databaser - OOP -> 
 # Min väg till att Utveckla 4-vägslösningen.
-Lär dig objektorienterad programmering från grunden till avancerad nivå
+"Learn Programming from Zero to Hero"
 
 [Börja Nu 🚀](grunderna/introduktion.md){ .md-button .md-button--primary .hero-button }
 [Alla Lektioner](kursoversikt.md){ .md-button .md-button--primary .hero-button }
