@@ -92,6 +92,7 @@ plugins:
 nav:
   - Mitt Online-CV: https://galenginger.github.io/OnlineCV/
   - Mina Projekt: projekt.md
+  - 💎 4-Vägslösningen: 4-vagslösningen.md
   - Kursen:
     - Hem: index.md
     - Kursöversikt: kursoversikt.md
