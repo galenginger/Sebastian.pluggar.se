@@ -1,0 +1,27 @@
+/* Justera färger som du vill – nedan exempel */
+.md-sidebar .week-past    { color: rgba(0, 0, 0, 0.426); }          /* lite mattare */
+.md-sidebar .week-current { color: var(--md-primary-fg-color); 
+                            font-weight: 600; }                     /* highlight */
+.md-sidebar .week-future  { color: inherit; }                       /* standard */
+
+/* Om du använder mörkt läge kan du tona ned matt färg där också */
+[data-md-color-scheme="slate"] .md-sidebar .week-past {
+  color: rgba(255, 255, 255, 0.389);
+}
+
+/*current i mörkt läge ska bli ljusare*/
+[data-md-color-scheme="slate"] .md-sidebar .week-current {
+  color: rgba(255, 255, 255, 0.666);
+}   
+
+/* Badge på nuvarande vecka */
+.md-sidebar .md-nav__title.week-current::after {
+  content: "★";
+  color: #FFD700;
+  font-size: 0.9em;
+  margin-left: 0.3em;
+}
+
+.md-sidebar .md-nav__link.week-current::after {
+  content: none;
+}

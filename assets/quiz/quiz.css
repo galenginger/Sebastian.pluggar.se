@@ -1,0 +1,69 @@
+/* Grupp */
+.quiz-group { margin: 0 0 1rem 0; }
+
+/* Fråga */
+.quiz {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .5rem;
+}
+
+/* Alternativ */
+.quiz .quiz-option {
+  display: block;
+  margin: .25rem 0;
+}
+
+/* Feedback & lösning */
+.quiz-feedback { margin: .5rem 0 0; font-weight: 500; }
+.quiz-solution { margin-top: .5rem; }
+
+/* Statusfärger */
+.quiz-correct {
+  border-color: var(--md-accent-fg-color);
+  background: color-mix(in oklab, var(--md-accent-fg-color) 8%, transparent);
+}
+.quiz-wrong {
+  border-color: #b00020;
+  background: color-mix(in oklab, #b00020 5%, transparent);
+}
+
+/* Resultatsammanfattning */
+.quiz-result {
+  margin-top: .75rem;
+  font-weight: 600;
+}
+
+/* Inline input som ser ut att höra hemma i kodraden */
+.quiz-inline-input {
+  font-family: var(--md-code-font-family, ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace);
+  font-size: .9em;
+  line-height: 1.4;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 3px;
+  padding: 0 .25em;
+  min-width: 8ch;        /* lagom bredd */
+  display: inline-block;
+  vertical-align: baseline;
+  background: var(--md-code-bg-color, transparent);
+  color: inherit;
+}
+
+.quiz.quiz-completed {
+  outline: 2px solid var(--md-accent-fg-color);
+  border-radius: .35rem;
+}
+.quiz .quiz-feedback[hidden] { display: none; }
+
+/* Se till att "fel" vinner över den blå completed-ramen */
+.quiz.quiz-completed.quiz-wrong {
+  outline: 2px solid #b00020;           /* röd ytterram */
+  border-color: #b00020;                 /* röd innerram */
+  background: color-mix(in oklab, #b00020 5%, transparent);
+}
+
+/* (valfritt) ge explicit outline för rätt också, för tydlighet */
+.quiz.quiz-completed.quiz-correct {
+  outline: 2px solid var(--md-accent-fg-color);
+}

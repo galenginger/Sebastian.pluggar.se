@@ -1,0 +1,497 @@
+/* ============================================
+   FORCE NAVIGATION TABS ON MOBILE
+   ============================================ */
+
+/* Show tabs on all screen sizes */
+.md-tabs {
+  display: flex !important;
+}
+
+/* Make tabs scrollable on mobile */
+@media screen and (max-width: 76.1875em) {
+  .md-tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .md-tabs__list {
+    white-space: nowrap;
+  }
+}
+
+/* ============================================
+   COMPACT HERO SECTION (Mobile-First)
+   ============================================ */
+
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2.5rem 1.5rem;
+  margin: -1rem -1rem 2rem -1rem;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+[data-md-color-scheme="slate"] .hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.hero-section h1 {
+  color: white !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  margin: 0.5rem auto 1.5rem;
+  max-width: 500px;
+}
+
+.hero-button {
+  padding: 0.6rem 1.5rem !important;
+  font-size: 0.95rem !important;
+  border-radius: 8px !important;
+  margin: 0.25rem !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  transition: transform 0.2s !important;
+  display: inline-block;
+}
+
+.hero-button:hover {
+  transform: translateY(-2px);
+}
+
+/* Quick Stats Bar */
+.quick-stats {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(102, 126, 234, 0.05);
+  border-radius: 8px;
+  margin: -1rem 0 2rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ============================================
+   COMPACT CARDS (Mobile-Optimized)
+   ============================================ */
+
+.compact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.compact-grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.compact-card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: all 0.3s;
+  border-left: 3px solid transparent;
+  min-height: 200px;
+}
+
+.compact-card:hover {
+  border-left-color: #667eea;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.15);
+  transform: translateX(3px);
+}
+
+[data-md-color-scheme="slate"] .compact-card {
+  background: #2d3748;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.compact-card h3 {
+  font-size: 1.2rem !important;
+  margin: 0 0 0.5rem 0 !important;
+  color: var(--md-default-fg-color) !important;
+}
+
+.compact-card p {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.compact-card a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* Quick Links Table */
+.quick-links table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.quick-links td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.quick-links tr:hover {
+  background: rgba(102, 126, 234, 0.05);
+}
+
+/* Compact CTA */
+.cta-compact {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem 1.5rem;
+  margin: 2rem -1rem -1rem -1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.cta-compact h3 {
+  color: white !important;
+  font-size: 1.5rem !important;
+  margin: 0 0 0.5rem 0 !important;
+}
+
+.cta-compact p {
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0.5rem 0 1rem 0;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN (Mobile-First)
+   ============================================ */
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    margin: -0.5rem -0.5rem 1.5rem -0.5rem;
+  }
+
+  .hero-section h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+
+  .hero-button {
+    padding: 0.5rem 1rem !important;
+    font-size: 0.85rem !important;
+    display: block;
+    margin: 0.5rem auto !important;
+  }
+
+  .compact-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .compact-grid-2col {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .quick-stats {
+    font-size: 0.75rem;
+    padding: 0.75rem;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding: 3rem 2rem;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .compact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .compact-grid-2col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .hero-section {
+    padding: 3.5rem 2rem;
+  }
+
+  .compact-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .compact-grid-2col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================================
+   LEGACY STYLES (Old Design - Keep for other pages)
+   ============================================ */
+
+.feature-card h3 {
+  color: var(--md-default-fg-color) !important;
+  font-size: 1.4rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: 600 !important;
+}
+
+.feature-card p {
+  color: var(--md-default-fg-color--light);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.feature-card a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.feature-card a:hover {
+  color: #764ba2;
+}
+
+/* ============================================
+   LEARNING PATH
+   ============================================ */
+
+.learning-path {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  padding: 3rem 2rem;
+  margin: 3rem -2rem;
+  border-radius: 12px;
+}
+
+.learning-path h2 {
+  text-align: center;
+  color: var(--md-default-fg-color) !important;
+  margin-bottom: 2rem !important;
+}
+
+.path-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.path-step {
+  background: var(--md-default-bg-color);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.path-step:hover {
+  border-color: #667eea;
+  transform: scale(1.05);
+}
+
+.step-number {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.path-step h3 {
+  color: var(--md-default-fg-color) !important;
+  font-size: 1.3rem !important;
+  margin: 1rem 0 !important;
+}
+
+.path-step p {
+  color: var(--md-default-fg-color--light);
+  margin: 0.5rem 0;
+}
+
+.path-step a {
+  color: #667eea;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ============================================
+   STATS SECTION
+   ============================================ */
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.stat-box {
+  padding: 2rem 1rem;
+  background: var(--md-default-bg-color);
+  border-radius: 12px;
+  border: 2px solid var(--md-default-fg-color--lightest);
+  transition: all 0.3s;
+}
+
+.stat-box:hover {
+  border-color: #667eea;
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: var(--md-default-fg-color--light);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* ============================================
+   CTA SECTION
+   ============================================ */
+
+.cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 3rem 2rem;
+  margin: 3rem -2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.cta-section h2 {
+  color: white !important;
+  font-size: 2.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.cta-section p,
+.cta-section strong {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.cta-button {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem !important;
+  font-size: 1.2rem !important;
+  background: white !important;
+  color: #667eea !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero-content h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .path-container {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================================
+   LEGACY STYLES (keeping for backwards compatibility)
+   ============================================ */
+
+.md-content h1 {
+  color: var(--md-default-fg-color);
+  font-weight: 600;
+}
+
+.md-content h2 {
+  color: var(--md-default-fg-color);
+  font-weight: 500;
+}
+
+.md-sidebar .md-nav__title {
+  color: var(--md-default-fg-color);
+}
+
+.md-nav__title {
+  display: none;
+}
+
+.md-content .footnote-ref {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: #667eea;
+}
+
+.md-content .footnote-ref:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.md-content .footnotes {
+  font-size: 0.9em;
+  color: var(--md-default-fg-color--light);
+}
