@@ -89,12 +89,11 @@ plugins:
     - meta
     - search
 nav:
+  - Hem: index.md
   - Mitt Online-CV: https://galenginger.github.io/OnlineCV/
   - Mina Projekt: projekt.md
   - 💎 4-Vägslösningen: 4-vagslösningen.md
   - Kursen:
-    - grunderna/introduktion.md
-    - Hem: index.md
     - Kursöversikt: kursoversikt.md
     - 🎯 Grunderna:
       - grunderna/index.md
