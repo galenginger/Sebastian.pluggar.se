@@ -133,6 +133,13 @@ nav:
       - praktik/uml.md
       - praktik/misstag.md
       - praktik/projekt.md
+    - 🔀 Git:
+      - git/index.md
+      - git/introduktion.md
+      - git/grundlaggande-kommandon.md
+      - git/branches.md
+      - git/arbetsfloden.md
+      - git/avancerat.md
     - Lektioner:
       - lektioner/index.md
     - Examination:
